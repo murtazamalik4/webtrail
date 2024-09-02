@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 200vh;
+            width: 100%;
+            background-color: blueviolet;
+        }
+        .box{
+            width: 30%;
+            height: 80vh;
+            background-color: aqua;
+            transform: translateX(0px);
+            transition: 1s all;
+            z-index: 9999 ;
+
+        }
+        .active
+        {
+            width: 30%;
+            height: 80vh;
+            background-color: aqua;
+            transform: translateX(-400px);
+            transition: 1s all;
+        }
+    </style>
+</head>
+<body>
+   
+     <input type="text" class="t1">
+    <input type="text" class="t2" >
+    <button class="btn">click</button>
+    <input type="text" class="t3">
+
+    <!-- <div class="box"></div>
+    <button class="btn" value="1">click</button> -->
+
+    
+    <script src="index.js"></script>
+
+
+</body>
+</html>
